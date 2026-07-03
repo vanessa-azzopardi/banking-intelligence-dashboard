@@ -1,8 +1,5 @@
 ## Data Sources
 
-```markdown
-# Data Sources
-
 This dashboard uses public data from the European Central Bank data portal.
 
 ## Sources Used

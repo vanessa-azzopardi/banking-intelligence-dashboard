@@ -1,6 +1,6 @@
 # Design Decisions
 
-## Schema
+## Star schema
 
 A star schema was used to keep the model clean, improve usability, and makes DAX calculations easier to maintain.
 

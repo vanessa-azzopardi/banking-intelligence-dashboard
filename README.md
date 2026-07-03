@@ -39,7 +39,7 @@ Main tables:
 - Measures
 - Metadata
 
-![Data Model](images/data_model.png)
+![Data Model](images/model.png)
 
 ## Tools Used
 Power BI Desktop | Power BI Service | Power Query | DAX | ECB Data API | GitHub

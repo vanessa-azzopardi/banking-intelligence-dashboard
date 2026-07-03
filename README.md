@@ -23,7 +23,7 @@ The solution connects to multiple ECB public API endpoints, transforms the data 
 
 ## Architecture
 
-![Architecture](Images/architecture.png)
+![Architecture](images/architecture.png)
 
 ```text
 ECB APIs

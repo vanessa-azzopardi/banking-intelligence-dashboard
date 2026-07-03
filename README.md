@@ -3,7 +3,7 @@
 A Power BI dashboard built using live public data from the European Central Bank (ECB), accessed through an API.  
 The dashboard provides an overview of key monetary, inflation, exchange rate and lending indicators.
 
-![Dashboard Preview](Images/dashboard.png)
+![Dashboard Preview](images/dashboard.png)
 
 ## Project Objective
 
@@ -25,20 +25,6 @@ The solution connects to multiple ECB public API endpoints, transforms the data 
 
 ![Architecture](images/architecture.png)
 
-```text
-ECB APIs
-   ↓
-Power Query
-   ↓
-Star Schema Data Model
-   ↓
-DAX Measures
-   ↓
-Power BI Dashboard
-   ↓
-Power BI Service Scheduled Refresh
-```
-
 ## Data Model
 
 The model follows a star schema design with a central date dimension connected to multiple fact tables.
@@ -52,6 +38,8 @@ Main tables:
 - Fact_LendingRates
 - Measures
 - Metadata
+
+![Data Model](images/data_model.png)
 
 ## Tools Used
 Power BI Desktop | Power BI Service | Power Query | DAX | ECB Data API | GitHub
